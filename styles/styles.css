@@ -15,31 +15,164 @@
 }
 
 body {
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     font-family: "PT Sans", sans-serif;
     font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    margin: 0;
 }
+
+.main-conteiner {
+    width: 1200px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+.page-header {}
+
+.logo-sedona {}
+
+.page-navigation {}
+
+.navigation-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation-item {}
 
 .navigation-link {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-    color: black;
+    text-decoration: none;
+    color: #000000;
+}
+
+.navigation-user {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation-item-user {}
+
+.navigation-link-user {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.likes-number {
+    font-size: 10px;
+    line-height: 10px;
+    color: #ffffff;
+    background-color: #7db54f;
+}
+
+.button {
+    background-color: #756157;
+    color: #ffffff;
+}
+
+.main-index {}
+
+.hero {
+    background-color: #138181;
+    background-image: url(../images/divider.svg), url(../images/index-background.jpg);
+    background-size: 1200px 57px, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center bottom, center top;
+    padding: 51px 0 82px;
+}
+
+.welcome {
+    display: block;
+    margin: 0 auto;
+}
+
+.advantages {
+    padding-top: 69px;
 }
 
 .main-title {
+    width: 620px;
+    margin: 0 auto 25px;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
-    text-align: center;
     text-transform: uppercase;
-    color: black;
+    color: #000000;
 }
 
 .main-description {
+    margin: 0 auto 69px;
+    width: 600px;
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
-    text-align: center;
     color: #333333;
+}
+.advantages-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.advantages-item{}
+.advantages-conteiner{
+    padding: 102px 0;
+    width: 400px;
+    background-color: #82b3d3;
+}
+.advantages-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+    margin: 0 auto 62px;
+    color: #ffffff;
+}
+.advantages-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+}
+.services-capitals{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 64px;
+}
+.services-text{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+    text-align: center;
+    margin: auto 20px 64px;
 }
